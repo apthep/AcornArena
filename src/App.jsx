@@ -442,7 +442,7 @@ class NutcrackerGame {
 
       if (entity.isPlayer) {
         if (this.playerControl === 'player') {
-          this.updatePlayer(entity, effectiveSpeed, delta)
+        this.updatePlayer(entity, effectiveSpeed, delta)
         } else {
           this.updateBot(entity, effectiveSpeed, delta)
         }
@@ -644,8 +644,8 @@ class NutcrackerGame {
 
     if (distance(entity.position, nearest.position) < entity.radius + nearest.radius + 4) {
       if (nearest.alive) {
-        nearest.hp = 0
-        nearest.alive = false
+      nearest.hp = 0
+      nearest.alive = false
         this.recordCasualty(nearest)
       }
       this.effects.push({
@@ -758,7 +758,7 @@ class NutcrackerGame {
           }
           if (target.hp <= 0) {
             if (target.alive) {
-              target.alive = false
+            target.alive = false
               this.recordCasualty(target)
             }
             this.effects.push({
@@ -1452,7 +1452,7 @@ function App() {
   const renderOverlay = () => {
     switch (overlayStage) {
       case 'menu':
-        return (
+  return (
           <div className="game-menu card-panel">
             <h2>Nutcracker Showdown</h2>
             <p>
@@ -1522,24 +1522,24 @@ function App() {
                   Truce ends when you begin the campaign
                 </text>
               </svg>
-            </div>
+        </div>
             <div className="menu-instructions">
               <h3>Battlefield Controls</h3>
-              <ul>
-                <li>
+          <ul>
+            <li>
                   <strong>Move:</strong> WASD / Arrow Keys keep your commander nimble.
-                </li>
-                <li>
+            </li>
+            <li>
                   <strong>Nut Sling:</strong> Tap J or Space to volley shells downrange.
-                </li>
-                <li>
+            </li>
+            <li>
                   <strong>Dodge:</strong> Weave constantly to dodge hits and protect your HP.
-                </li>
-                <li>
+            </li>
+            <li>
                   <strong>Robo-Nut Launch:</strong> As the mice, press R when charges glow.
-                </li>
-              </ul>
-            </div>
+            </li>
+          </ul>
+        </div>
             <button type="button" className="menu-start-button" onClick={() => setOverlayStage('war-brief')}>
               Begin Campaign
             </button>
@@ -1562,7 +1562,7 @@ function App() {
               <button type="button" className="menu-start-button" onClick={beginBalancedSkirmish}>
                 Lead the Mice into Battle
               </button>
-            </div>
+          </div>
           </div>
         )
       case 'duel-victory': {
