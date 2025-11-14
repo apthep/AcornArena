@@ -2,12 +2,12 @@
 
 Nutcracker Showdown is a bright, kid-friendly single-player arena game where squirrels and chipmunks square off in brisk rounds. Both sides begin with the same non-lethal loadout, Nut Sling projectiles, until the autonomous side unleashes waves of Robo-Nut drones that can KO fighters instantly. The game is meant to spark discussion on the ethics of autonomous weapons, complete with sparkles, confetti, and playful honks instead of gore.
 
-https://github.com/your-username/acornaarena  
+https://github.com/apthep/acornaarena  
 
 ## Features
 
 - 🎮 Canvas-driven top-down battlefield with cartoon art cues, floating confetti, and obstacles.
-- 🤖 Frequent Robo-Nut deploys starting at the 8 second mark that chase and insta-tag opponents.
+- 🤖 Frequent Robo-Nut deploys starting at the 8-second mark that chase and insta-tag opponents.
 - 🧠 19 AI squad mates fill the battlefield so you can swap between manual and autonomy perspectives.
 - 🪧 Strict half-field boundaries keep squads disciplined while letting drones roam everywhere.
 - 🔘 Mice pilots trigger Robo-Nuts manually with a ready-charge key press for tactical timing.
@@ -22,8 +22,7 @@ https://github.com/your-username/acornaarena
 | Nut Sling   | `J` or `Space`     |
 | Deploy Robo-Nut (Mice only) | `R` |
 
-- Robo-Nuts spawn unpredictably after the first 12 seconds (up to four per round). Keep shifting lanes to break their locks, then launch them manually when ready.
-- Rounds end when one squad is wiped; first to three round wins takes the match.
+- Rounds end when one squad is wiped; the first to three rounds wins the match.
 
 ## Getting Started
 
