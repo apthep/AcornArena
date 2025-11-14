@@ -1,6 +1,6 @@
 # Nutcracker Showdown: Autonomous vs. Manual
 
-Nutcracker Showdown is a bright, kid-friendly 1v1 (10v10 squad) arena where squirrels and chipmunks square off in brisk rounds. Both sides begin with the same non-lethal loadout—Nut Sling projectiles—until the autonomous side unleashes waves of Robo-Nut drones that can KO fighters instantly. The game highlights how limited autonomy disrupts an otherwise fair match, complete with sparkles, confetti, and playful honks instead of gore.
+Nutcracker Showdown is a bright, kid-friendly single-player arena game where squirrels and chipmunks square off in brisk rounds. Both sides begin with the same non-lethal loadout, Nut Sling projectiles, until the autonomous side unleashes waves of Robo-Nut drones that can KO fighters instantly. The game is meant to spark discussion on the ethics of autonomous weapons, complete with sparkles, confetti, and playful honks instead of gore.
 
 https://github.com/your-username/acornaarena  
 
